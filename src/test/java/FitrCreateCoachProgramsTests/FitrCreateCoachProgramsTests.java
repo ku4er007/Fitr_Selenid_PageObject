@@ -56,6 +56,7 @@ public class FitrCreateCoachProgramsTests {
                 .clickOnStartProgramingButton()
                 .waitForPageLoad()
                 .closeAlertWithGotItButton()
+                .waitForPageLoad()
                 .clickOnProgramsElementInHeader()
                 .clickOnUserAvatar()
                 .clickOnLogOutButton();
@@ -64,11 +65,13 @@ public class FitrCreateCoachProgramsTests {
 
     @Test
     public void positiveCreateFixedLengthCoachProgramTest() {
-        loginPage.waitForPageLoad()
+        loginPage
+                .waitForPageLoad()
                 .sendEmailCredentials()
                 .sendPasswordCredentials()
                 .cliskLoginButton();
-        programsListPage.waitForPageLoad()
+        programsListPage
+                .waitForPageLoad()
                 .clickCreateNewProgramPatton()
                 .waitForPageLoad()
                 .ckickOnFixedLengthProgramInHeader()
@@ -86,11 +89,14 @@ public class FitrCreateCoachProgramsTests {
                 .clickOnGotItButtoniInAlert()
                 .switchToIntercomeElementAndCloseIt()
                 .switchToPerentPage()
+
                 .clickOnStep3Button()
                 .switchToIntercomeElementAndCloseIt()
                 .switchToPerentPage()
                 .scrollPageDownToPublicProgramButton()
                 .clickOnPublishProgramButton()
+
+
                 .clickOnPublishMyProgram()
                 .clickOnNextButton()
                 .clickOnButton()
