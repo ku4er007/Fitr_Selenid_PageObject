@@ -1,0 +1,249 @@
+[1604399840.210][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 40557
+[1604399840.210][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1604399840.430][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/FitrSelenid/build/downloads/1604399839511_8948_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/FitrSelenid/build/downloads/1604399839511_8948_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1604399840.431][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/kostiantyndoroshenko/Downloads/ДЗ Автоматизация/FitrSelenid/build/downloads/1604399839511_8948_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1604399840.431][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1604399840.432][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.ThtS2s data:,
+[1604399841.678][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1604399841.687][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1604399841.715][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.183",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "/var/folders/wy/_106bf7d06q9jc6p1xz5wbbm0000gn/T/.com.google.Chrome.ThtS2s"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:59647"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "cbc4434f63e1feaead5426f51c2f0c4d"
+}
+[1604399841.757][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1604399841.757][INFO]: Waiting for pending navigations...
+[1604399841.758][INFO]: Done waiting for pending navigations. Status: ok
+[1604399841.862][INFO]: Waiting for pending navigations...
+[1604399841.863][INFO]: Done waiting for pending navigations. Status: ok
+[1604399841.863][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 1462,
+   "y": 1
+}
+[1604399841.871][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND Navigate {
+   "url": "https://dev.fitr.training/onboarding/sign_in"
+}
+[1604399841.871][INFO]: Waiting for pending navigations...
+[1604399841.883][INFO]: Done waiting for pending navigations. Status: ok
+[1604399842.244][INFO]: Waiting for pending navigations...
+[1604399843.074][INFO]: Done waiting for pending navigations. Status: disconnected: received Inspector.detached event
+[1604399843.089][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE Navigate
+[1604399843.149][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399843.149][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399843.669][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399843.669][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399844.182][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399844.183][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399844.690][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399844.690][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399845.202][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399845.202][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399845.712][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399845.713][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399846.226][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399846.226][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399846.737][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399846.738][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399847.243][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399847.243][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399847.750][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399847.750][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399848.263][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399848.263][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
+[1604399848.774][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1604399848.774][INFO]: [cbc4434f63e1feaead5426f51c2f0c4d] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.183)
