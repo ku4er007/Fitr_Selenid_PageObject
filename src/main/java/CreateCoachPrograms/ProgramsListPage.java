@@ -33,4 +33,24 @@ public class ProgramsListPage extends BasePage {
         $x("//button[@data-gtm-id='coachcreatesfixed']").click();
         return this;
     }
+
+    public ProgramsListPage ckickOnGroupRollingCalendarInHeader() {
+        $x("//li[@class='nav-item'][3]").click();
+        return this;
+    }
+
+    public ProgramsListPage clickOnCreateGroupRollingCalendarProgramButton() {
+        $x("//button[@data-gtm-id='coachcreatesonemany']").click();
+        return this;
+    }
+
+    public ProgramsListPage ckickOnsession1Day1CreateProgramHeaderButton() {
+        $x("//li[@class='nav-item'][4]").click();
+        return this;
+    }
+
+    public ProgramsListPage clickOnSession1Day1CreateProgramButton() {
+        $x("//button[@data-gtm-id='coachcreatesautomated']").click();
+        return this;
+    }
 }

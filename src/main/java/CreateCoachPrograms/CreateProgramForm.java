@@ -97,6 +97,7 @@ public class CreateProgramForm extends BasePage{
         return this;
     }
 
+
 //    public CreateProgramForm equalsCurrentUrl() {
 //
 //    }
@@ -131,8 +132,23 @@ public class CreateProgramForm extends BasePage{
         return this;
     }
 
-    public CreateProgramForm clickOnButton() {
+    public CreateProgramForm clickOnFinishButton() {
         $x("//button[@class='btn btn-primary'][contains(text(),'Finish')]").click();
+        return this;
+    }
+
+    public CreateProgramForm enterGroupCalendarProgrammingTitle() {
+        $x("//input[@placeholder='[Edit] Group Calendar Programming']").val("Test Test Test Title Group Calendar Programming Title");
+        return this;
+    }
+
+    public CreateProgramForm clickOnProgramsElementInHeaderByHref() {
+        $x("//a[@href='/coach/programs']").click();
+        return this;
+    }
+
+    public CreateProgramForm enterSession1Day1ProgrammingTitle() {
+        $x("//input[@placeholder='[Edit] Session 1, Day 1 Programming']").val("Test Test Test Title Session 1, Day 1 Programming");
         return this;
     }
 }
