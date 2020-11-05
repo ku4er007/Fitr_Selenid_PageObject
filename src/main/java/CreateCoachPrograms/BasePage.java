@@ -8,7 +8,7 @@ public class BasePage {
 
     public BasePage waitForPageLoad(){
 
-        new WebDriverWait(WebDriverRunner.getWebDriver(), 20).until(
+        new WebDriverWait(WebDriverRunner.getWebDriver(), 10).until(
                 webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
         return this;
     }

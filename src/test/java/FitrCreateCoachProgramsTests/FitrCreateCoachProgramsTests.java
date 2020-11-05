@@ -90,8 +90,10 @@ public class FitrCreateCoachProgramsTests {
                 .switchToIntercomeElementAndCloseIt()
                 .switchToPerentPage()
                 .clickOnStep3Button()
-                .switchToIntercomeElementAndCloseIt()
-                .switchToPerentPage()
+//                .switchToIntercomeElementAndCloseIt()
+//                .switchToPerentPage()
+
+
                 .scrollPageDownToPublicProgramButton()
                 .clickOnPublishProgramButton()
 
@@ -128,8 +130,8 @@ public class FitrCreateCoachProgramsTests {
                 .enterDescriptionProgram()
                 .clickOnStep2Button()
                 .clickOnGotItButtoniInAlert()
-                .switchToIntercomeElementAndCloseIt()
-                .switchToPerentPage()
+//                .switchToIntercomeElementAndCloseIt()
+//                .switchToPerentPage()
                 .scrollPageDownToPublicProgramButton()
                 .clickOnPublishProgramButton()
                 .clickOnPublishMyProgram()
@@ -137,6 +139,10 @@ public class FitrCreateCoachProgramsTests {
                 .clickOnStartProgramingButton()
                 .waitForPageLoad()
                 .closeAlertWithGotItButton()
+
+//                .switchToIntercomeElementAndCloseIt()
+//                .switchToPerentPage()
+
                 .clickOnProgramsElementInHeaderByHref()
                 .clickOnUserAvatar()
                 .clickOnLogOutButton();
@@ -166,13 +172,13 @@ public class FitrCreateCoachProgramsTests {
                 .enterDescriptionProgram()
                 .clickOnStep2Button()
                 .clickOnGotItButtoniInAlert()
-                .switchToIntercomeElementAndCloseIt()
-                .switchToPerentPage()
+//                .switchToIntercomeElementAndCloseIt()
+//                .switchToPerentPage()
                 .clickOnStep3Button()
                 .scrollPageDownToPublicProgramButton()
 
-                .switchToIntercomeElementAndCloseIt()
-                .switchToPerentPage()
+//                .switchToIntercomeElementAndCloseIt()
+//                .switchToPerentPage()
 
                 .clickOnPublishProgramButton()
                 .clickOnPublishMyProgram()
